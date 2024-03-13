@@ -129,32 +129,3 @@ proxies:
   server: 162.159.192.31
   type: wireguard
   udp: true
-proxy-groups:
-- name: 🌐 节点选择
-  proxies:
-  - 💡 自动选择
-  - 🇺🇸 US-CF-WARP-1
-  - 🇺🇸 US-CF-WARP-2
-  - 🇳🇱 NL-CF-WARP-3
-  - 🇳🇱 NL-CF-WARP-4
-  - 🇳🇱 NL-CF-WARP-5
-  - 🇳🇱 NL-CF-WARP-6
-  - 🇳🇱 NL-CF-WARP-7
-  - 🇺🇸 US-CF-WARP-8
-  - 🇳🇱 NL-CF-WARP-9
-  - 🇺🇸 US-CF-WARP-10
-  type: select
-- interval: 300
-  name: 💡 自动选择
-  proxies:
-  - 🇺🇸 US-CF-WARP-1
-  - 🇺🇸 US-CF-WARP-2
-  - 🇳🇱 NL-CF-WARP-3
-  - 🇳🇱 NL-CF-WARP-4
-  - 🇳🇱 NL-CF-WARP-5
-  - 🇳🇱 NL-CF-WARP-6
-  - 🇳🇱 NL-CF-WARP-7
-  - 🇺🇸 US-CF-WARP-8
-  - 🇳🇱 NL-CF-WARP-9
-  - 🇺🇸 US-CF-WARP-10
-  type: url-test
